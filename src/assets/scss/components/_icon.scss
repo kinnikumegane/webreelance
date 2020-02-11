@@ -27,6 +27,19 @@
 			margin: 0 0 _size(element-margin) 0;
 			cursor: default;
 
+			&.logotop{
+				border: 0px;
+				margin: 0;
+				padding-bottom: 0;
+
+				&:before{
+					border: 0px;
+					width: 1.25em;
+					height: 1.25em;
+					line-height: 1.0em;
+				}
+			}
+
 			&:before {
 				display: inline-block;
 				font-size: 6.25rem;
@@ -72,6 +85,10 @@
 
 		&.style5 {
 			color: _palette(accent5);
+		}
+
+		&.style6 {
+			color: _palette(accent6);
 		}
 
 		@include breakpoint(xlarge) {

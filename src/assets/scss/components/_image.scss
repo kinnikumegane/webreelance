@@ -15,6 +15,12 @@
 		img {
 			border-radius: _size(border-radius);
 			display: block;
+			width: 100%;
+			//object-fit: cover;
+			&:hover{
+				transform: scale(1.1);
+				transition: 0.7s; 
+			}
 		}
 
 		&.left,

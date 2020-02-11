@@ -53,7 +53,9 @@ class Scroll extends React.Component {
                 {typeof(this.props.children) === 'object' ? (
                     React.cloneElement(this.props.children, { onClick: this.handleClick })
                 ) : (
-                    <span onClick={this.handleClick}>{this.props.children}</span>
+                    //<span onClick={this.handleClick}>{this.props.children}</span>
+                    // kinniku added onKeyDown and changed from span to input
+                    <input onClick={this.handleClick} onKeyDown={this.handleClick}>{this.props.children}</input>
                 )}
             </Element>
         );

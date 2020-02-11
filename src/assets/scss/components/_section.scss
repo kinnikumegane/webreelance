@@ -9,6 +9,32 @@
 	section, article {
 		&.special {
 			text-align: center;
+			
+			//kinniku added
+			& li {
+				& h3 {
+					& a{
+						text-decoration: none !important;
+						border-bottom: 0 !important;
+						//color: blue;
+						&:hover{
+							color:#0D075D !important;
+						}
+					}
+				}
+
+				& p {
+					text-align: left;
+					& a {
+						text-decoration: none !important;
+						border-bottom: 0 !important;
+						//color: blue;
+						&:hover{
+							color:#0D075D !important;
+						}
+					}
+				}
+			}
 		}
 	}
 
