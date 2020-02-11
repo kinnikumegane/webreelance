@@ -45,6 +45,13 @@ class Index extends React.Component {
           <section id="intro" className="main special">
             <header className="major">
               <h2>SERVICE</h2>
+              <p>
+                Hello everyone, it's me Japanese, made and born in Japan.
+                <br />
+                I started freelance work since January 1st 2020, and this is my first English portfolio.
+                <br />
+                Not many projects experience yet, but <b>motivation + persistence</b> drive me to complete projects in timely manner.
+              </p>
             </header>
             <ul className="features">
               <li>
