@@ -55,7 +55,8 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style1 fa-code"></span>
+                {/* <span className="icon major style5 fa-diamond"></span> */}
                 {/* <span className="icon major style1 fa-code"></span> */}
                 <h3>Front-end design</h3>
                 <ul className="features-frontend">
@@ -80,9 +81,10 @@ class Index extends React.Component {
                   <li>Shopify</li>
                 </ul>
               </li>
+              {/*
               <li>
                 <span className="icon major style1 fa-code"></span>
-                {/* <span className="icon major style5 fa-diamond"></span> */}
+                {/* <span className="icon major style5 fa-diamond"></span> 
                 <h3>Data analysis</h3>
                 <ul className="features-cms">
                   <li>Machine Learning</li>
@@ -92,6 +94,7 @@ class Index extends React.Component {
                   <li>NumPy</li>
                 </ul>
               </li>
+              */}
             </ul>
             {/* 
             <footer className="major">
